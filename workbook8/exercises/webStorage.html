@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1>LocalStorage Demo</h1>
+      <button id="displayButton">Display Value</button>
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", (event) => {
+        localStorage.setItem("myGame", "Devil May Cry 5");
+      });
+
+      function displayValue() {
+        alert(localStorage.getItem("myGame"));
+      }
+
+      document
+        .getElementById("displayButton")
+        .addEventListener("click", displayValue);
+
+      document.addEventListener("DOMContentLoaded", (event) => {
+        localStorage.setItem("anotherValue", "Another Value");
+      });
+
+      localStorage.clear();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="imageDemo.css">
+    <title>Image Demo</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <img class="roundedImg" src="images/inosuke.jpg" width="800" height="480" />
+        <p>Inosuke, wild boar</p>
+      </div>
+
+      <div>
+        <img class="roundedImg" src="images/inosuke.jpg" width="800" height="480" />
+        <p>Inosuke, wild boar</p>
+      </div>
+
+         <div>
+        <img class="roundedImg" src="images/inosuke.jpg" width="800" height="480" alt="roundImg" />
+        <p>Inosuke, wild boar</p>
+      </div>
+    </main>
+    <script>
+      window.onload = function() {
+      // Select all elements with the class "imageGroup"
+      let imageGroups = document.querySelectorAll("p");
+      // let imageGroups = document.querySelectorAll("img.roundedImg");
+      // Loop through each selected element
+      for (const imageGroup of imageGroups) {
+        // Add black border
+        imageGroup.style.border = "1px solid black";
+        img.style.borderRadius = "50%";
+      }
+      let noAlt = document.querySelectorAll("img:not([alt])");
+      // Assign them the text "graffiti image"
+      for (const img of noAlt) {
+        img.alt = "roundedImg";
+      }
+    }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+# Workbook9
+
+code demos, examples & exercises for workbook 8
+
+- Object Oriented JavaScript
+  - ES6 classes introduction
+  - Defining contructor
+  - Creating objects using a class
+  - Defining methods
+  - Enhancing the class
+  - Calling one method from another
+  - Extending a class
+- Introduction to Relational Databases
+  - Databases and DBMS
+  - Database operation
+  - Collection of tables
+- Query data
+  - SELECT / SELECT *
+  - Optional clauses in a SELECT statement
+  - ORDER BY 
+  - WHERE / complex WHERE
+  - LIKE and BETWEEN comparisons
+  - Querying for null values
+  - SELECT DISTINCT
+- MySQL Workbench
+  - Exploring database
+  - Viewing records
+  - Executing queries
+- Additional Query Features
+  - Aggregate functions
+    - COUNT()
+    - SUM()
+    - AVG()
+    - MIN() AND MAX()
+- Grouping Results
+  - GROUP BY
+  - AS keyword
+  - HAVING clause
+  - Nested queries
+- Querying Multiple Tables (JOINS)
+  - INNER JOINS
+  - OUTTER JOINS
+- Modifying the data and database
+  - Inserting, Updating, and Deleting data
+  - INSERT INTO statements
+  - UPDATE statements
+  - DELETE statements
+- Creating a Table
+  - CREATE TABLE
