@@ -1,5 +1,6 @@
 # Workbook 3
-code examples & exercises for workbook 3
+
+code demos, examples & exercises for workbook 3
 
 - JavaScript Functions cont.
 - Parameters

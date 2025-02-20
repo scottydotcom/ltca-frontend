@@ -1,5 +1,6 @@
 # Workbook 4 
-code examples & exercises for workbook 4
+
+code demos, examples & exercises for workbook 4
 
 - JavaScript objects
   - Accessing object properties

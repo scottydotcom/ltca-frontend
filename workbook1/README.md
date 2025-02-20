@@ -1,5 +1,6 @@
 # Workbook 1
-code examples & exercises for workbook 1
+
+code demos, examples & exercises for workbook 1
 
 - HTML 
   - Syntax, structure, tags, images, tables, validation

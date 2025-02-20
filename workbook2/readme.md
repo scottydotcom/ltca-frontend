@@ -1,5 +1,6 @@
 # Workbook 2
-code examples & exercises for workbook 2
+
+code demos, examples & exercises for workbook 2
 
 - JavaScript
   - Expressions, arithmetic operators, variables (initialized/uninitialized)

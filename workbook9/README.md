@@ -1,6 +1,6 @@
 # Workbook9
 
-code demos, examples & exercises for workbook 8
+code demos, examples & exercises for workbook 9
 
 - Object Oriented JavaScript
   - ES6 classes introduction
