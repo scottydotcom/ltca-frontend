@@ -2,7 +2,7 @@
 
 ### workbook 1 - HTML, CSS, Bootstrap
 
-### workbook 2 - Vanilla Javascript, Conditional Satements, Event Handling, JS in the Browser/Page Elements
+### workbook 2 - Vanilla Javascript, Conditional Satements, Event Handling
 
 ### workbook 3 - Functions, Return Values, Scoping, Strings, Dates, Forms
 
@@ -12,7 +12,7 @@
 
 ### workbook 6 - Codewars Technical Practice, Algorithms, Python & Java mini-introduction
 
-### workbook 7 - JSON, AJAX(REST API's), Postman, Fetch API & Fetch Requests, Cors, Node.js, Local REST API server
+### workbook 7 - JSON, AJAX(REST API's), Postman, Fetch API & Fetch Requests, Cors, Node.js
 
 ### workbook 8 - HTTP Methods, Fetch API's(continued), Web Storage
 
