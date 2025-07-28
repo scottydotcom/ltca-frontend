@@ -33,6 +33,10 @@ async function fetchData() {
 
       let cell2 = row.insertCell();
       cell2.innerText = populationData.Population;
+
+      let cell3 = row.insertCell();
+      cell3.innerText = populationData.ID;
+      
     }
   } catch (error) {
     console.error(error);
