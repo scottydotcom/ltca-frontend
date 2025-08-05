@@ -5,7 +5,7 @@ let products = [
   { product: "Plain M&Ms", price: 2.89 },
   { product: "Peanut M&Ms", price: 2.89 },
   { product: "Swedish Fish", price: 3.79 },
-  { Product: "Twiz Bar", Price: 4.29 },
+  { Product: "Twix Bar", Price: 4.29 },
   { Product: "Reese's Pieces", Price: 3.49 },
   { Product: "Crunch Bar", Price: 1.99 },
   { Product: "Snickers", Price: 2.49 },
@@ -45,3 +45,15 @@ function fishCarry(products, productName) {
   console.log(`No, we do not carry ${productName}.`);
 }
 fishCarry(products, "Swedish Fish");
+
+// using for of loop
+// function fishCarry(products, productName) {
+//   for(let findProduct of products) {
+//     if(findProduct.product.toLowerCase() === productName.toLowerCase()) {
+//       console.log(`Yes, we carry ${productName}.`);
+//       return;
+//     }
+//   }
+//   console.log(`No, we do not carry ${productName}.`);
+// }
+// fishCarry(products, "Swedish Fish");
